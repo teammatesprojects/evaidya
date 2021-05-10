@@ -157,6 +157,72 @@
                 android:text=""
                 android:layout_height="wrap_content"/>
         </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:fontFamily="@font/poppinsmedium"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="Booking Time"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text=":"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/tv_booking_time"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text=""
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:fontFamily="@font/poppinsmedium"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="Pickup Time"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text=":"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:fontFamily="@font/poppinsmedium"
+                android:id="@+id/tv_picup_time"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text=""
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
     </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
     

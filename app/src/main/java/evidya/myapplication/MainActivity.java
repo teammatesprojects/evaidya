@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
                             binding.tvType.setText(jsonObject.getString("type"));
                             binding.tvStatus.setText(jsonObject.getString("status"));
                             binding.tvSource.setText("MobileApp");
+                            binding.tvBookingTime.setText(jsonObject.getString("bookingTime").replace("T"," "));
+                            binding.tvPicupTime.setText(jsonObject.getString("pickupTime").replace("T"," "));
                             JSONObject custobject=jsonObject.getJSONObject("customer");
                             binding.tvName.setText(custobject.getString("fullName"));
                             binding.tvEmail.setText(custobject.getString("email"));
