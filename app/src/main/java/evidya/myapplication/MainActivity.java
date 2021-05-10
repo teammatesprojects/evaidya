@@ -88,5 +88,4 @@ public class MainActivity extends AppCompatActivity {
         });
         queue.add(stringRequest);
     }
-
 }
